@@ -54,7 +54,7 @@ while True:
             if matches[best_match_index]:
                 name = faces_names[best_match_index]
             face_names.append(name)
-            text_val = "Welcome to my laptop. Your face is detected.. I think your name is" + name[10:]
+            text_val = "Welcome to my laptop. Your face is detected. I think your name is" + name[10:]
 
     process_this_frame = not process_this_frame
     # Display the results
